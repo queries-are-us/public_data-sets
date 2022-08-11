@@ -1,26 +1,47 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+h1 {
+    text-align: center;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+main {
+    max-width: 640px;
+    margin: 0 auto;
 }
 
-* {
-  box-sizing: border-box;
+footer {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+footer a {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+footer a.link_website::before,
+footer a.link_repo::before {
+    background-size: 32px 32px;
+    content: "";
+    display: inline-block;
+    height: 32px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+    width: 32px;
+}
+
+.link_website::before {
+    background-image: url(/logos/qau/qau_logo_sglm.png);
+}
+
+.link_repo::before {
+    background-image: url(/logos/gh/GitHub-Mark-32px.png);
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+    .link_website::before {
+        background-image: url(/logos/qau/qau_logo_sgdm.png);
+    }
+
+    .link_repo::before {
+        background-image: url(/logos/gh/GitHub-Mark-Light-32px.png);
+    }
 }
