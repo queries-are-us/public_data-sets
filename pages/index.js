@@ -12,18 +12,18 @@ export default function Home() {
             <h1>Data Sets</h1>
             <h2>Main sets:</h2>
             <ul>
-                <li><a href='/api/ds/conferences' target="_blank" rel="noopener">/api/ds/conferences</a></li>
+                <li><a href='/api/ds/conferences' target="_blank" rel="noopener noreferrer">/api/ds/conferences</a></li>
             </ul>
         </main>
 
         <footer>
-            <a className='link_website' href="https://www.queries-are-us.com/" target="_blank" rel="noopener">
+            <a className='link_website' href="https://www.queries-are-us.com/" target="_blank" rel="noopener noreferrer">
                 Website UI
             </a>
-            <a className='link_repo' href="https://github.com/queries-are-us/public_data-sets" target="_blank" rel="noopener">
+            <a className='link_repo' href="https://github.com/queries-are-us/public_data-sets" target="_blank" rel="noopener noreferrer">
                 GitHub Repo
             </a>
-            <a className='link_licence' href="https://github.com/queries-are-us/public_data-sets/blob/main/LICENSE" target="_blank" rel="noopener">
+            <a className='link_licence' href="https://github.com/queries-are-us/public_data-sets/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
                 Licence
             </a>
         </footer>
