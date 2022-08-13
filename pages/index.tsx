@@ -15,6 +15,7 @@ const Home: NextPage = () => {
             <h2>Main sets:</h2>
             <ul>
                 <li><a href='/api/ds/conferences' target="_blank" rel="noopener noreferrer">/api/ds/conferences</a></li>
+                <li><a href='/api/ds/volunteering' target="_blank" rel="noopener noreferrer">/api/ds/volunteering</a></li>
             </ul>
         </main>
 
