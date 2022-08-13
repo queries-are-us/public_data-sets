@@ -1,6 +1,7 @@
+import type { NextPage } from 'next'
 import Head from 'next/head'
 
-export default function Home() {
+const Home: NextPage = () => {
     return <div>
         <Head>
             <title>Public Data Sets | Queries Are Us</title>
@@ -30,3 +31,5 @@ export default function Home() {
         </footer>
     </div>
 }
+
+export default Home
