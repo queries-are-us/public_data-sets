@@ -7,7 +7,7 @@ export default function handler(
     res: NextApiResponse<ConferenceData>
 ) {
     const { id } = req.query
-    const dto = conferences_dataset.find(i => i.id === id);
+    const dto = conferences_dataset.find((i: ConferenceData) => i.id === id);
     if (!dto) {
         return res.status(404);
     }
