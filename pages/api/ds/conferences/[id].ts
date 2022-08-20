@@ -1,6 +1,7 @@
 
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { ConferenceData, conferences_dataset } from '../conferences'
+import { ConferenceData } from '../../../../lib/data_types/conferences';
+import { conferences_dataset } from '../conferences'
 
 export default function handler(
     req: NextApiRequest,

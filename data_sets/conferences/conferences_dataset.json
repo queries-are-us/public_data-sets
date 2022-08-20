@@ -1,0 +1,125 @@
+[
+    {
+        "id": "0765bb09-9370-44c1-8056-d4c7f74eaa68",
+        "tags": [
+            "tech",
+            "cloud computing",
+            "aws"
+        ],
+        "title": "AWS Summit London - 2022",
+        "next_events": [
+            {
+                "description": "main event",
+                "date": "2022-04-27"
+            },
+            {
+                "description": "online event",
+                "date": "2022-06-29"
+            }
+        ],
+        "location": "ExCeL, London | online",
+        "venues": [
+            {
+                "description": "ExCeL London",
+                "address": "Royal Victoria Dock, 1 Western Gateway, London E16 1XL",
+                "map_link": "https://goo.gl/maps/oMTSBQZvo2qdTimM9",
+                "coordinates": {
+                    "lat": "51.508600309386786",
+                    "lng": "0.029845998280563675"
+                }
+            }
+        ],
+        "website": "https://aws.amazon.com/events/summits/london/",
+        "description": "The AWS Summit is back in London for 2022.",
+        "media": [
+            "https://www.youtube.com/c/AWSEventsChannel"
+        ]
+    },
+    {
+        "id": "c59f4cde-d77c-4702-8ff4-1d93b651642d",
+        "tags": [
+            "tech",
+            "rabbitmq"
+        ],
+        "title": "RabbitMQ Summit - 2022",
+        "next_events": [
+            {
+                "description": "main event",
+                "date": "2022-09-16"
+            }
+        ],
+        "location": "CodeNode, London | online",
+        "venues": [
+            {
+                "description": "Conference venue address",
+                "address": "CodeNode. 10 South Pl London EC2M 7EB",
+                "map_link": "https://g.page/codenodeuk?share",
+                "coordinates": {
+                    "lat": "51.51865155930793",
+                    "lng": "-0.08601036061456908"
+                }
+            },
+            {
+                "description": "Training venue address",
+                "address": "Tallis House 2 Tallis Street London EC4Y 0AB",
+                "map_link": "https://g.page/Tallis-House-3066?share",
+                "coordinates": {
+                    "lat": "51.51184316659943",
+                    "lng": "-0.08601036061456908"
+                }
+            }
+        ],
+        "website": "https://rabbitmqsummit.com/",
+        "description": "RabbitMQ Summit brings together RabbitMQ users and developers from around the world. Learn from speakers and keynotes on what’s happening in and around RabbitMQ.",
+        "media": [
+            "https://www.youtube.com/c/RabbitMQSummit"
+        ]
+    },
+    {
+        "id": "a1002ac5-6a09-42cf-95f6-c4a5ee95c5c2",
+        "tags": [
+            "tech",
+            "software developers"
+        ],
+        "title": "NDC Oslo - 2022",
+        "next_events": [
+            {
+                "description": "day 1",
+                "date": "2022-09-26"
+            },
+            {
+                "description": "day 2",
+                "date": "2022-09-27"
+            },
+            {
+                "description": "day 3",
+                "date": "2022-09-28"
+            },
+            {
+                "description": "day 4",
+                "date": "2022-09-29"
+            },
+            {
+                "description": "day 5",
+                "date": "2022-09-30"
+            }
+        ],
+        "location": "Oslo Spektrum",
+        "venues": [
+            {
+                "description": "Oslo Spektrum",
+                "address": "Sonja Henies plass 2, 0185 Oslo, Norway",
+                "map_link": "https://goo.gl/maps/AsYRpP2q6XwhuMg8A",
+                "coordinates": {
+                    "lat": "59.91311694219749",
+                    "lng": "10.75477161274102"
+                }
+            }
+        ],
+        "website": "https://ndcoslo.com/",
+        "description": "NDC Oslo 2022 is a 5-Day Event for Software Developers, 26-30 September in Oslo Spektrum.",
+        "media": [
+            "https://www.youtube.com/c/NDCConferences"
+        ]
+    }
+]

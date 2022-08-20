@@ -1,16 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
+import { ConferenceData } from 'lib/data_types/conferences';
 
-export type ConferenceData = {
-    id: string
-    tags: string
-    title: string
-    next_events: string
-    location: string
-    website: string
-    description: string
-}
-
-export const conferences_dataset = require('../../../ds/conferences/conferences_dataset.json');
+export const conferences_dataset = require('data_sets/conferences/conferences_dataset.json');
 
 export default function handler(
     req: NextApiRequest,
