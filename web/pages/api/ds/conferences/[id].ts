@@ -1,14 +1,14 @@
 
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { ConferenceData } from '../../../../lib/data_types/conferences';
+import { Conference } from '../../../../../lib/data_types/conferences';
 import { conferences_dataset } from '../conferences'
 
 export default function handler(
     req: NextApiRequest,
-    res: NextApiResponse<ConferenceData>
+    res: NextApiResponse<Conference>
 ) {
     const { id } = req.query
-    const dto = conferences_dataset.find((i: ConferenceData) => i.id === id);
+    const dto = conferences_dataset.find((i: Conference) => i.id === id);
     if (!dto) {
         return res.status(404);
     }

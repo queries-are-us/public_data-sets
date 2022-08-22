@@ -1,21 +1,28 @@
 
-export type ConferenceVenue = {
-    description: string,
-    address: string,
-    map_link: string,
-    coordinates: { lat: string, lng: string }
+export interface Coordinates {
+    lat: string
+    lng: string
 }
 
-export type ConferenceData = {
+export interface Venue {
+    description: string
+    address: string
+    map_link: string
+    coordinates: Coordinates
+}
+
+export interface Event {
+    description: string
+    date: Date
+}
+
+export interface Conference {
     id: string
     tags: string[]
     title: string
-    next_events: {
-        description: string,
-        date: Date
-    }[]
+    next_events: Event[]
     location: string
-    venues: ConferenceVenue
+    venues: Venue[]
     website: string
     description: string
     media: string[]

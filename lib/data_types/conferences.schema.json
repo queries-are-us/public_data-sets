@@ -1,0 +1,87 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "Coordinates": {
+            "properties": {
+                "lat": {
+                    "type": "string"
+                },
+                "lng": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "Event": {
+            "properties": {
+                "date": {
+                    "format": "date",
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "Venue": {
+            "properties": {
+                "address": {
+                    "type": "string"
+                },
+                "coordinates": {
+                    "$ref": "#/definitions/Coordinates"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "map_link": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "properties": {
+        "description": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "location": {
+            "type": "string"
+        },
+        "media": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "next_events": {
+            "items": {
+                "$ref": "#/definitions/Event"
+            },
+            "type": "array"
+        },
+        "tags": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "title": {
+            "type": "string"
+        },
+        "venues": {
+            "items": {
+                "$ref": "#/definitions/Venue"
+            },
+            "type": "array"
+        },
+        "website": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}

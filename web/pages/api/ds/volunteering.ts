@@ -9,7 +9,7 @@ export type VolunteeringData = {
     description: string
 }
 
-export const volunteering_dataset = require('/data_sets/volunteering/volunteering_dataset.json');
+export const volunteering_dataset = require('/../data_sets/volunteering/volunteering_dataset.json');
 
 export default function handler(
     req: NextApiRequest,
