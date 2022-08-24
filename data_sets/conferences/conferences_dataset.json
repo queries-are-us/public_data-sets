@@ -1,6 +1,6 @@
 [
     {
-        "id": "0765bb09-9370-44c1-8056-d4c7f74eaa68",
+        "id": "v55BC0-aws-summit-london-2022",
         "tags": [
             "tech",
             "cloud computing",
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "id": "c59f4cde-d77c-4702-8ff4-1d93b651642d",
+        "id": "JEDcrp-rabbitmq-summit-2022",
         "tags": [
             "tech",
             "rabbitmq"
@@ -76,7 +76,7 @@
         ]
     },
     {
-        "id": "a1002ac5-6a09-42cf-95f6-c4a5ee95c5c2",
+        "id": "CfftaJ-ndc-oslo-2022",
         "tags": [
             "tech",
             "software developers"
@@ -121,5 +121,42 @@
         "media": [
             "https://www.youtube.com/c/NDCConferences"
         ]
+    },
+    {
+        "id": "sFOx2u-qcon-london-2023",
+        "tags": [
+            "tech",
+            "software developers"
+        ],
+        "title": "QCon London - 2023",
+        "next_events": [
+            {
+                "description": "day 1",
+                "date": "2023-03-27"
+            },
+            {
+                "description": "day 2",
+                "date": "2023-03-28"
+            },
+            {
+                "description": "day 3",
+                "date": "2023-03-29"
+            }
+        ],
+        "location": "The Queen Elizabeth II Conference Centre - London",
+        "venues": [
+            {
+                "description": "The Queen Elizabeth II",
+                "address": "Broad Sanctuary, London SW1P 3EE",
+                "map_link": "https://goo.gl/maps/FJ5X6Wv7y996KMMZ8",
+                "coordinates": {
+                    "lat": "51.500360324954265",
+                    "lng": "-0.1290617729542029"
+                }
+            }
+        ],
+        "website": "https://qconlondon.com/",
+        "description": "Uncover emerging software trends and practices to solve your complex engineering challenges, without the product pitches.",
+        "media": []
     }
 ]
