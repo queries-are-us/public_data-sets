@@ -1,0 +1,29 @@
+[
+    {
+        "id": "OnApFi-dotnet-rocks",
+        "title": ".NET Rocks! vNext",
+        "address": "https://dotnetrocks.com",
+        "tags": [
+            "tech",
+            "software developers",
+            "dotnet"
+        ],
+        "descriptions": ".NET Rocks! is a weekly talk show for anyone interested in programming on the Microsoft .NET platform. The shows range from introductory information to hardcore geekiness."
+    },
+    {
+        "id": "ZUnKsS-darknetdiaries",
+        "title": "Darknet Diaries – True stories from the dark side of the Internet.",
+        "address": "https://darknetdiaries.com/",
+        "tags": [
+            "tech",
+            "darknet",
+            "darkweb",
+            "stories",
+            "crypto",
+            "hacking",
+            "infosec",
+            "security"
+        ],
+        "descriptions": "A podcast featuring true stories from the dark side of the Internet."
+    }
+]

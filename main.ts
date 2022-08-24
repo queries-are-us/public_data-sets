@@ -1,22 +1,21 @@
-import ConferenceSchema from './lib/data_types/conferences.schema.json';
-import conferences_dataset from './data_sets/conferences/conferences_dataset.json';
-import Ajv from 'ajv';
-import addFormats from "ajv-formats";
+import ValidateBlogsDataSet from "./lib/validators/blogs";
+import ValidateBooksDataSet from "./lib/validators/books";
+import ValidateConferencesDataSet from "./lib/validators/conferences";
+import ValidateEducationDataSet from "./lib/validators/education";
+import ValidateNewslettersDataSet from "./lib/validators/newsletters";
+import ValidatePodcastsDataSet from "./lib/validators/podcasts";
+import ValidateUserGroupsDataSet from "./lib/validators/usergroups";
+import ValidateVolunteeringDataSet from "./lib/validators/volunteering";
 
-const ajv = new Ajv();
-addFormats(ajv)
+console.log(`>>> Running all DataSets validations ...`)
 
-console.log(`=== Start Data Sets Validation ================================================`)
+ValidateBlogsDataSet();
+ValidateBooksDataSet();
+ValidateConferencesDataSet();
+ValidateEducationDataSet();
+ValidateNewslettersDataSet();
+ValidatePodcastsDataSet();
+ValidateUserGroupsDataSet();
+ValidateVolunteeringDataSet();
 
-if (!Array.isArray(conferences_dataset)) {
-    console.log(`Object conferences_dataset MUST be of type array`)
-}
-
-console.log(`Validationg ${conferences_dataset.length} entries`)
-conferences_dataset.forEach(conference => {
-    if (!ajv.validate(ConferenceSchema, conference)) {
-        console.log(ajv.errors);
-    }
-});
-
-console.log(`=== Data Sets Validation Finished =============================================`)
+console.log(`<<< Validation Completed!`)

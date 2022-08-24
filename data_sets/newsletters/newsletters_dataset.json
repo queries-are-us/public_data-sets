@@ -1,0 +1,49 @@
+[
+    {
+        "id": "vxqN4V-pointer",
+        "name": "Pointer",
+        "title": "A Reading Club For Software Developers | Pointer",
+        "address": "http://www.pointer.io/",
+        "rss_feed": "http://www.pointer.io/rss/",
+        "tags": [
+            "tech",
+            "software developers"
+        ],
+        "descriptions": [
+            "A reading club For software developers. A newsletter about what current and future CTOs are reading and thinking about.",
+            "A window into what current and future CTOs are reading and thinking about.",
+            "Super high quality engineering-related content only."
+        ]
+    },
+    {
+        "id": "PKroXF-awesome-net",
+        "name": "Awesome .NET",
+        "title": "Awesome .NET Weekly | LibHunt",
+        "address": "https://dotnet.libhunt.com/newsletter",
+        "rss_feed": "https://dotnet.libhunt.com/newsletter/feed",
+        "tags": [
+            "tech",
+            "software developers",
+            "dotnet"
+        ],
+        "descriptions": [
+            "A weekly overview of the most popular .NET news, articles and projects"
+        ]
+    },
+    {
+        "id": "WYYeU6-csharp-digest",
+        "name": "C# Digest",
+        "title": "C# Digest - A newsletter about C# and .NET",
+        "address": "https://csharpdigest.net/",
+        "rss_feed": "https://csharpdigest.net/digests/feed.rss",
+        "tags": [
+            "tech",
+            "software developers",
+            "dotnet"
+        ],
+        "descriptions": [
+            "A carefully curated weekly newsletter for .NET developers to help you learn and stay on top of technology.",
+            "Stay up to date with the latest articles, topics and trends in C# and .NET. Subscribe now and get a free newsletter into your inbox."
+        ]
+    }
+]

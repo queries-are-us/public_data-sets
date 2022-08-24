@@ -1,0 +1,51 @@
+[
+    {
+        "id": "N5q3Q8-safari-books-online",
+        "name": "Safari® Books Online",
+        "title": "O'Reilly Media - Technology and Business Training",
+        "link": "https://www.oreilly.com/",
+        "description": "Gain technology and business knowledge and hone your skills with learning resources created and curated by O'Reilly's experts: live online training, video, books, our platform has content from 200+ of the world's best publishers."
+    },
+    {
+        "id": "7u3wp5-coursera",
+        "name": "Coursera",
+        "title": "Coursera | Degrees, Certificates, & Free Online Courses",
+        "link": "https://www.coursera.org/",
+        "description": "Learn new job skills in online courses from industry leaders like Google, IBM, & Meta. Advance your career with top degrees from Michigan, Penn, Imperial & more."
+    },
+    {
+        "id": "TJeVjP-pluralsight",
+        "name": "Pluralsight",
+        "title": "Pluralsight | The tech workforce development company",
+        "link": "https://www.pluralsight.com/",
+        "description": "Access the technology workforce development platform that helps tech teams know more and work better together with stronger tech skills, processes and leaders."
+    },
+    {
+        "id": "UxlSQm-khan-academy",
+        "name": "Khan Academy",
+        "title": "Khan Academy | Free Online Courses, Lessons & Practice",
+        "link": "https://www.khanacademy.org/",
+        "description": "Learn for free about math, art, computer programming, economics, physics, chemistry, biology, medicine, finance, history, and more. Khan Academy is a nonprofit with the mission of providing a free, world-class education for anyone, anywhere."
+    },
+    {
+        "id": "CxUumZ-udemy",
+        "name": "Udemy",
+        "title": "Online Courses - Learn Anything, On Your Schedule | Udemy",
+        "link": "https://www.udemy.com/",
+        "description": "Udemy is an online learning and teaching marketplace with over 204,000 courses and 54 million students. Learn programming, marketing, data science and more."
+    },
+    {
+        "id": "4TQe57-skillshare",
+        "name": "Skillshare",
+        "title": "Online Learning: Creative Classes on Skillshare",
+        "link": "https://www.skillshare.com/",
+        "description": "Skillshare is an online learning platform with thousands of creative courses and classes taught by experts to help you learn new skills."
+    },
+    {
+        "id": "A43pkN-codecademy",
+        "name": "Codecademy",
+        "title": "Learn to Code - for Free | Codecademy",
+        "link": "https://www.codecademy.com/",
+        "description": "Learn the technical skills to get the job you want. Join over 50 million people choosing Codecademy to start a new career (or advance in their current one)."
+    }
+]

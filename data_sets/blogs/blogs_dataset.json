@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1tS5e4-scott-hanselmans-blog",
+        "title": "Scott Hanselman's Blog",
+        "address": "https://www.hanselman.com/blog/",
+        "rss_feed": "https://www.hanselman.com/blog/feed/rss",
+        "authors": [
+            "Scott Hanselman"
+        ],
+        "tags": [
+            "tech",
+            "dotnet",
+            "ASP.NET",
+            ".NET",
+            "Open Source",
+            "CSS",
+            "HTML",
+            "JavaScript"
+        ],
+        "description": "Scott Hanselman is blogging about open source, .NET, and the cloud."
+    }
+]

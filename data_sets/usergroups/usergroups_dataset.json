@@ -1,0 +1,28 @@
+[
+    {
+        "id": "O15cpr-ldnug",
+        "title": "LDNUG: London .NET User Group",
+        "links": [
+            "https://skillsmatter.com/groups/6-london-dot-net-user-group",
+            "https://www.meetup.com/en-AU/london-net-user-group/"
+        ],
+        "tags": [
+            "tech",
+            "london",
+            "dotnet",
+            "software developers"
+        ],
+        "descriptions": "The London .NET User Group was set up in 2002, to support the community of local software developers working with Microsoft .NET. Our monthly meetings are a ...",
+        "venues": [
+            {
+                "description": "skillsmatter - PERMANENTLY CLOSED",
+                "address": "120 Goswell Rd., London EC1V 7DP",
+                "map_link": "https://goo.gl/maps/dwDa7db76FfRzUvV6",
+                "coordinates": {
+                    "lat": "51.524687609352966",
+                    "lng": "-0.09912774554615501"
+                }
+            }
+        ]
+    }
+]

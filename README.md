@@ -44,4 +44,12 @@ To ensure any change to the data sets it's compatible, run the command: `npm sta
 
 Requires/uses https://github.com/YousefED/typescript-json-schema, to install you can use the command: `npm install typescript-json-schema -g`.
 
-To create or update the `Conference` json schema: `typescript-json-schema .\tsconfig.json Conference > .\lib\data_types\conferences.schema.json`
+To create or update the datasets json schema:
+- `typescript-json-schema .\tsconfig.json Blogs > .\lib\data_types\blogs.schema.json`
+- `typescript-json-schema .\tsconfig.json Book > .\lib\data_types\books.schema.json`
+- `typescript-json-schema .\tsconfig.json Conference > .\lib\data_types\conferences.schema.json`
+- `typescript-json-schema .\tsconfig.json LearningPlatform > .\lib\data_types\education.schema.json`
+- `typescript-json-schema .\tsconfig.json Newsletter > .\lib\data_types\newsletters.schema.json`
+- `typescript-json-schema .\tsconfig.json Podcast > .\lib\data_types\podcasts.schema.json`
+- `typescript-json-schema .\tsconfig.json UserGroup > .\lib\data_types\usergroups.schema.json`
+- `typescript-json-schema .\tsconfig.json Volunteering > .\lib\data_types\volunteering.schema.json`

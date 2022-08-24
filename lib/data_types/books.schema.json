@@ -1,0 +1,90 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "Link": {
+            "properties": {
+                "address": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "Publisher": {
+            "properties": {
+                "entity": {
+                    "type": "string"
+                },
+                "website": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "properties": {
+        "authors": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "binding": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "editions": {
+            "type": "number"
+        },
+        "id": {
+            "type": "string"
+        },
+        "isbn_10": {
+            "type": "string"
+        },
+        "isbn_13": {
+            "type": "string"
+        },
+        "languages": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "links": {
+            "items": {
+                "$ref": "#/definitions/Link"
+            },
+            "type": "array"
+        },
+        "pages": {
+            "type": "number"
+        },
+        "publication_date": {
+            "type": "string"
+        },
+        "publishers": {
+            "items": {
+                "$ref": "#/definitions/Publisher"
+            },
+            "type": "array"
+        },
+        "release_date": {
+            "type": "string"
+        },
+        "tags": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "title": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}

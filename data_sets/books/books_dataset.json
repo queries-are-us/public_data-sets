@@ -1,0 +1,45 @@
+[
+    {
+        "id": "af9nj0-data-pipelines-pocket-reference",
+        "title": "Data Pipelines Pocket Reference",
+        "authors": [
+            "James Densmore"
+        ],
+        "isbn_13": "9781492087830",
+        "isbn_10": "1492087831",
+        "editions": 1,
+        "binding": "paperback",
+        "publishers": [
+            {
+                "entity": "O'Reilly Media, Inc.",
+                "website": "https://www.oreilly.com"
+            }
+        ],
+        "release_date": "February 2021",
+        "publication_date": "2021-03-31",
+        "pages": 200,
+        "languages": [
+            "English"
+        ],
+        "links": [
+            {
+                "type": "publisher",
+                "address": "https://www.oreilly.com/library/view/data-pipelines-pocket/9781492087823/"
+            },
+            {
+                "type": "amazon uk",
+                "address": "https://www.amazon.co.uk/gp/product/1492087831/"
+            },
+            {
+                "type": "isbn",
+                "address": "https://isbnsearch.org/isbn/9781492087830"
+            }
+        ],
+        "tags": [
+            "tech",
+            "data",
+            "poket reference"
+        ],
+        "description": "Data pipelines are the foundation for success in data analytics. Moving data from numerous diverse sources and transforming it to provide context is the difference between having data and actually gaining value from it. This pocket reference defines data pipelines and explains how they work in today's modern data stack."
+    }
+]
