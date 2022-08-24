@@ -12,6 +12,7 @@ if (!Array.isArray(conferences_dataset)) {
     console.log(`Object conferences_dataset MUST be of type array`)
 }
 
+console.log(`Validationg ${conferences_dataset.length} entries`)
 conferences_dataset.forEach(conference => {
     if (!ajv.validate(ConferenceSchema, conference)) {
         console.log(ajv.errors);
