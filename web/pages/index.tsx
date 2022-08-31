@@ -14,7 +14,13 @@ const Home: NextPage = () => {
             <h1>Data Sets</h1>
             <h2>Main sets:</h2>
             <ul>
+                <li><a href='/api/ds/blogs' target="_blank" rel="noopener noreferrer">/api/ds/blogs</a></li>
+                <li><a href='/api/ds/books' target="_blank" rel="noopener noreferrer">/api/ds/books</a></li>
                 <li><a href='/api/ds/conferences' target="_blank" rel="noopener noreferrer">/api/ds/conferences</a></li>
+                <li><a href='/api/ds/education' target="_blank" rel="noopener noreferrer">/api/ds/education</a></li>
+                <li><a href='/api/ds/newsletters' target="_blank" rel="noopener noreferrer">/api/ds/newsletters</a></li>
+                <li><a href='/api/ds/podcasts' target="_blank" rel="noopener noreferrer">/api/ds/podcasts</a></li>
+                <li><a href='/api/ds/usergroups' target="_blank" rel="noopener noreferrer">/api/ds/usergroups</a></li>
                 <li><a href='/api/ds/volunteering' target="_blank" rel="noopener noreferrer">/api/ds/volunteering</a></li>
             </ul>
         </main>
