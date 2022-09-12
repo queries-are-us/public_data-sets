@@ -3,6 +3,7 @@
         "id": "v55BC0-aws-summit-london-2022",
         "tags": [
             "tech",
+            "devops",
             "cloud computing",
             "aws"
         ],
@@ -44,6 +45,7 @@
         "id": "JEDcrp-rabbitmq-summit-2022",
         "tags": [
             "tech",
+            "devops",
             "rabbitmq"
         ],
         "title": "RabbitMQ Summit - 2022",
@@ -324,6 +326,92 @@
             "https://www.linkedin.com/company/voxxedtrieste",
             "https://twitter.com/voxxedtrieste",
             "https://www.instagram.com/voxxedtrieste/"
+        ]
+    },
+    {
+        "id": "VnioBz-hashiconf-europe-2022",
+        "tags": [
+            "tech",
+            "cloud computing",
+            "devops"
+        ],
+        "title": "HashiConf Europe - 2022",
+        "next_events": [
+            {
+                "description": "Day 1",
+                "date": "2022-06-20"
+            },
+            {
+                "description": "Day 2",
+                "date": "2022-06-21"
+            },
+            {
+                "description": "Day 3",
+                "date": "2022-06-22"
+            }
+        ],
+        "location": "Amsterdam | online",
+        "venues": [
+            {
+                "description": "Zuiveringshal West",
+                "address": "Pazzanistraat 37 Amsterdam, North Holland 1014 DB Netherlands",
+                "map_link": "https://goo.gl/maps/QTcVckyZv7b4guWo9",
+                "coordinates": {
+                    "lat": "52.38605141409377",
+                    "lng": "4.872136589888535"
+                }
+            }
+        ],
+        "website": "https://hashiconf.com/europe/",
+        "description": "Join the HashiCorp community for two full days of infrastructure and security automation, modern application delivery, and the future of cloud.",
+        "media": [
+            "https://github.com/hashicorp",
+            "https://twitter.com/hashicorp",
+            "https://www.youtube.com/HashiCorp",
+            "https://www.linkedin.com/company/hashicorp/"
+        ]
+    },
+    {
+        "id": "ram2SA-hashiconf-global-2022",
+        "tags": [
+            "tech",
+            "cloud computing",
+            "devops"
+        ],
+        "title": "HashiConf Global - 2022",
+        "next_events": [
+            {
+                "description": "Day 1",
+                "date": "2022-10-04"
+            },
+            {
+                "description": "Day 2",
+                "date": "2022-10-05"
+            },
+            {
+                "description": "Day 3",
+                "date": "2022-10-06"
+            }
+        ],
+        "location": "Los Angeles | online",
+        "venues": [
+            {
+                "description": "JW Marriott Los Angeles L.A. LIVE",
+                "address": "JW Marriott at L.A. Live, 900 W Olympic Blvd., Los Angeles, CA 90015",
+                "map_link": "https://goo.gl/maps/ywiGD7LELShTC4aT6",
+                "coordinates": {
+                    "lat": "34.045294387361416",
+                    "lng": "-118.2664671441211"
+                }
+            }
+        ],
+        "website": "https://hashiconf.com/global/",
+        "description": "Join the HashiCorp community in LA and online for two full days of infrastructure and security automation, modern application delivery, and the future of cloud.",
+        "media": [
+            "https://github.com/hashicorp",
+            "https://twitter.com/hashicorp",
+            "https://www.youtube.com/HashiCorp",
+            "https://www.linkedin.com/company/hashicorp/"
         ]
     }
 ]
