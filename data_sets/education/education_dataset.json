@@ -47,5 +47,19 @@
         "title": "Learn to Code - for Free | Codecademy",
         "link": "https://www.codecademy.com/",
         "description": "Learn the technical skills to get the job you want. Join over 50 million people choosing Codecademy to start a new career (or advance in their current one)."
+    },
+    {
+        "id": "UxmIRO-dotnetos",
+        "name": "Dotnetos",
+        "title": "Home - Dotnetos - courses & conferences about .NET",
+        "link": "https://dotnetos.org/",
+        "description": "We help build correct, robust and efficient .NET solutions."
+    },
+    {
+        "id": "tQI5KK-frontendmasters",
+        "name": "Frontend Masters",
+        "title": "Frontend Masters — Learn JavaScript, React, Vue & Angular from Masters of Front-End Development!",
+        "link": "https://frontendmasters.com/",
+        "description": "Advance your skills with in-depth, modern JavaScript and front-end engineering courses."
     }
 ]

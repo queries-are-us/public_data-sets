@@ -32,7 +32,12 @@
         "website": "https://aws.amazon.com/events/summits/london/",
         "description": "The AWS Summit is back in London for 2022.",
         "media": [
-            "https://www.youtube.com/c/AWSEventsChannel"
+            "https://www.youtube.com/c/AWSEventsChannel",
+            "https://www.youtube.com/user/AmazonWebServices/Cloud/",
+            "https://twitter.com/awscloud",
+            "https://www.facebook.com/amazonwebservices",
+            "https://www.twitch.tv/aws",
+            "https://pages.awscloud.com/communication-preferences?trk=homepage"
         ]
     },
     {
@@ -72,7 +77,8 @@
         "website": "https://rabbitmqsummit.com/",
         "description": "RabbitMQ Summit brings together RabbitMQ users and developers from around the world. Learn from speakers and keynotes on what’s happening in and around RabbitMQ.",
         "media": [
-            "https://www.youtube.com/c/RabbitMQSummit"
+            "https://www.youtube.com/c/RabbitMQSummit",
+            "https://twitter.com/RabbitMQSummit/"
         ]
     },
     {
@@ -119,7 +125,11 @@
         "website": "https://ndcoslo.com/",
         "description": "NDC Oslo 2022 is a 5-Day Event for Software Developers, 26-30 September in Oslo Spektrum.",
         "media": [
-            "https://www.youtube.com/c/NDCConferences"
+            "https://www.youtube.com/ndcconferences",
+            "https://twitter.com/NDC_Conferences",
+            "https://facebook.com/ndcconferences/",
+            "https://www.instagram.com/ndc_conferences/",
+            "https://www.linkedin.com/company/ndc-conferences/"
         ]
     },
     {
@@ -157,6 +167,163 @@
         ],
         "website": "https://qconlondon.com/",
         "description": "Uncover emerging software trends and practices to solve your complex engineering challenges, without the product pitches.",
+        "media": [
+            "https://twitter.com/QCon",
+            "https://www.facebook.com/QCon/",
+            "https://www.instagram.com/qconconferences/",
+            "https://www.youtube.com/channel/UCkQX1tChV7Z7l1LFF4L9j_g",
+            "https://www.linkedin.com/company/qcon-conferences/",
+            "https://www.flickr.com/photos/qconpictures/collections/"
+        ]
+    },
+    {
+        "id": "qjJJPo-jamstack-2022",
+        "tags": [
+            "tech",
+            "software developers"
+        ],
+        "title": "Jamstck Conf 2022",
+        "next_events": [
+            {
+                "description": "November 7 - Day One",
+                "date": "2022-11-07"
+            },
+            {
+                "description": "November 8 - Day Two",
+                "date": "2022-11-28"
+            }
+        ],
+        "location": "SVN West, San Francisco",
+        "venues": [
+            {
+                "description": "SVN West",
+                "address": "10 Van Ness Avenue, San Francisco, CA 94103",
+                "map_link": "https://goo.gl/maps/oFZ3J6iBpQhMQzDf8",
+                "coordinates": {
+                    "lat": "37.774248830231684",
+                    "lng": "-122.41967915014693"
+                }
+            }
+        ],
+        "website": "https://jamstack.org/",
+        "description": "What is the Jamstack? Why use the Jamstack? How do I get started? Learn what the Jamstack is all about and why it's the best approach for building faster, more secure websites.",
+        "media": [
+            "https://twitter.com/jamstackconf",
+            "https://www.linkedin.com/events/jamstackconf20226953070459366088704/comments/",
+            "https://discord.com/invite/jamstack",
+            "https://www.youtube.com/c/JAMstackConf"
+        ]
+    },
+    {
+        "id": "R1RNe6-scalacon-2022",
+        "tags": [
+            "tech",
+            "software developers",
+            "functional programming"
+        ],
+        "title": "ScalaCon 2022",
+        "next_events": [
+            {
+                "description": "Day 1",
+                "date": "2022-10-04"
+            },
+            {
+                "description": "Day 2",
+                "date": "2022-10-05"
+            },
+            {
+                "description": "Day 3",
+                "date": "2022-10-06"
+            },
+            {
+                "description": "Day 4",
+                "date": "2022-10-07"
+            }
+        ],
+        "location": "G-Research HQ, London | online",
+        "venues": [
+            {
+                "description": "Whittington House",
+                "address": "19-30 Alfred Pl, London WC1E 7EA",
+                "map_link": "https://goo.gl/maps/YaG4Wx4zjPs5yxSx6",
+                "coordinates": {
+                    "lat": "51.52085315698163",
+                    "lng": "-0.1330752558889977"
+                }
+            }
+        ],
+        "website": "https://www.scalacon.org/",
+        "description": "A series of virtual conferences brought to you from Scala eXchange and Scala Days ",
+        "media": [
+            "https://twitter.com/ScalaCon"
+        ]
+    },
+    {
+        "id": "A24srJ-haskell-exchange-2022",
+        "tags": [
+            "tech",
+            "software developers",
+            "functional programming"
+        ],
+        "title": "Haskell eXchange 2022",
+        "next_events": [
+            {
+                "description": "Day 1",
+                "date": "2022-12-08"
+            },
+            {
+                "description": "Day 2",
+                "date": "2022-12-09"
+            }
+        ],
+        "location": "CodeNode, London",
+        "venues": [
+            {
+                "description": "Whittington House",
+                "address": "10 South Place, London, EC2M 7EB",
+                "map_link": "https://g.page/codenodeuk",
+                "coordinates": {
+                    "lat": "51.51872584637122",
+                    "lng": "-0.0860224292521893"
+                }
+            }
+        ],
+        "website": "https://skillsmatter.com/conferences/13830-haskell-exchange-2022",
+        "description": "A series of virtual conferences brought to you from Scala eXchange and Scala Days.",
         "media": []
+    },
+    {
+        "id": "6hjsyT-voxxed-days-trieste-2022",
+        "tags": [
+            "tech",
+            "software developers"
+        ],
+        "title": "Voxxed Days Trieste - 2022",
+        "next_events": [
+            {
+                "description": "Main Event",
+                "date": "2022-06-10"
+            }
+        ],
+        "location": "Teatro Miela, Trieste - Italy",
+        "venues": [
+            {
+                "description": "Teatro Miela",
+                "address": "Piazza Duca degli Abruzzi, 3 - Trieste 34132, (Italia)",
+                "map_link": "https://goo.gl/maps/tuzbzjknjm4rb7q38",
+                "coordinates": {
+                    "lat": "45.65408322611738",
+                    "lng": "13.770015204813104"
+                }
+            }
+        ],
+        "website": "https://voxxeddays.com/trieste/",
+        "description": "Voxxed Days Trieste is a Java community developer conference that brings together software developers to discuss the most important topics in our sector with expert speakers and professionals.",
+        "media": [
+            "https://www.facebook.com/voxxedtrieste",
+            "https://www.linkedin.com/company/voxxedtrieste",
+            "https://twitter.com/voxxedtrieste",
+            "https://www.instagram.com/voxxedtrieste/"
+        ]
     }
 ]

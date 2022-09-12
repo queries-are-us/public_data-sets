@@ -18,5 +18,51 @@
             "JavaScript"
         ],
         "description": "Scott Hanselman is blogging about open source, .NET, and the cloud."
+    },
+    {
+        "id": "J5OmWH-jon-skeet-coding-blog",
+        "title": "Jon Skeet's coding blog",
+        "address": "https://codeblog.jonskeet.uk/",
+        "rss_feed": "https://codeblog.jonskeet.uk/feed/",
+        "authors": [
+            "Jon Skeet"
+        ],
+        "tags": [
+            "tech",
+            "dotnet",
+            "C#",
+            ".NET",
+            "Open Source",
+            "Stack Overflow",
+            "async",
+            "Benchmarking",
+            "Book reviews",
+            "Books",
+            "C#",
+            "C# 4",
+            "C# 5",
+            "C# 6",
+            "C# 8",
+            "CSharpDev",
+            "CSharpDevCenter",
+            "Design",
+            "Diagnostics",
+            "Eduasync",
+            "Edulinq",
+            "Evil code",
+            "General",
+            "Google",
+            "Java",
+            "LINQ",
+            "Noda Time",
+            "Parallelization",
+            "Performance",
+            "Protocol Buffers",
+            "Speaking engagements",
+            "V-Drums",
+            "Versioning",
+            "Wacky Ideas"
+        ],
+        "description": "He is referred to as the The Chuck Norris of Programming. Jon Skeet is a software engineer known for having the highest reputation on question-and-answer website Stack Overflow."
     }
 ]
