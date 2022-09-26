@@ -31,8 +31,12 @@
                 "address": "https://www.amazon.co.uk/gp/product/1492087831/"
             },
             {
-                "type": "isbn",
+                "type": "isbn search",
                 "address": "https://isbnsearch.org/isbn/9781492087830"
+            },
+            {
+                "type": "open library",
+                "address": "https://openlibrary.org/isbn/9781492087830"
             }
         ],
         "tags": [
