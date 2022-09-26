@@ -413,5 +413,47 @@
             "https://www.youtube.com/HashiCorp",
             "https://www.linkedin.com/company/hashicorp/"
         ]
+    },
+    {
+        "id": "wv1AWs-srecon22emea",
+        "tags": [
+            "tech",
+            "cloud computing",
+            "devops"
+        ],
+        "title": "SRE CON EMEA - 2022",
+        "next_events": [
+            {
+                "description": "Tuesday, 25 October",
+                "date": "2022-10-25"
+            },
+            {
+                "description": "Wednesday, 26 October",
+                "date": "2022-10-26"
+            },
+            {
+                "description": "Thursday, 27 October",
+                "date": "2022-10-27"
+            }
+        ],
+        "location": "Amsterdam, Netherlands | online",
+        "venues": [
+            {
+                "description": "Beurs van Berlage",
+                "address": "Beurs van Berlage, Damrak 243, 1012 ZJ Amsterdam, Netherlands",
+                "map_link": "https://goo.gl/maps/h4C9pNkZm7Ygax4B7",
+                "coordinates": {
+                    "lat": "52.37508176399533",
+                    "lng": "4.8961755785964645"
+                }
+            }
+        ],
+        "website": "https://www.usenix.org/conference/srecon22emea",
+        "description": "SREcon is a gathering of engineers who care deeply about site reliability, systems engineering, and working with complex distributed systems at scale. SREcon strives to challenge both those new to the profession as well as those who have been involved in it for decades. The conference has a culture of critical thought, deep technical insights, continuous improvement, and innovation.",
+        "media": [
+            "https://twitter.com/SREcon",
+            "https://www.facebook.com/usenixassociation",
+            "https://www.youtube.com/user/USENIXAssociation"
+        ]
     }
 ]
